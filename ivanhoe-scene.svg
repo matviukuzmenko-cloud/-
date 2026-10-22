@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Лицар біля замку</title>
+  <desc id="desc">Уявний середньовічний пейзаж у теплих кольорах заходу сонця.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9c5570"/><stop offset=".55" stop-color="#e99463"/><stop offset="1" stop-color="#f3c77d"/></linearGradient>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#677457"/><stop offset="1" stop-color="#253c39"/></linearGradient>
+    <linearGradient id="cape" x2="1" y2="1"><stop stop-color="#a83e3b"/><stop offset="1" stop-color="#662a35"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="900" height="650" fill="url(#sky)"/>
+  <circle cx="680" cy="190" r="76" fill="#ffe4a0" opacity=".9"/>
+  <path d="M0 345Q180 235 355 350T720 300T900 340V650H0Z" fill="#b76e5c" opacity=".45"/>
+  <path d="M0 400Q160 310 330 410T650 375T900 405V650H0Z" fill="#52625a"/>
+  <g fill="#373d3c" opacity=".93">
+    <path d="M570 390V224h38v-47h52v47h34v-88h58v88h30v166z"/>
+    <path d="M558 238h210l-15-21H573zM648 152h77l-13-20h-51z"/>
+    <path d="M590 266h18v38h-18zm77-8h18v38h-18zm65 12h18v38h-18z" fill="#efbd7b"/>
+    <path d="M687 390v-72q25-44 51 0v72z" fill="#282e30"/>
+  </g>
+  <path d="M0 448Q175 389 355 450T675 430T900 455V650H0Z" fill="url(#ground)"/>
+  <ellipse cx="400" cy="557" rx="190" ry="27" fill="#172b2b" opacity=".35" filter="url(#shadow)"/>
+  <g stroke="#242c30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 515q-28-37 3-73 32-32 87-15l66 18q34 10 45 42l-28 26-61-18-67 20z" fill="#302f31" stroke-width="8"/>
+    <path d="M290 453q-35-31-55 2l-24 31q-4 15 12 13l40-13" fill="#302f31" stroke-width="8"/>
+    <path d="M333 506l-10 76m73-77 21 77m-74-76-42 69m111-65 51 53" fill="none" stroke-width="17"/>
+    <path d="M273 575l-22 5m93 5 18 2m40-1 21 2m14-7 21 3" stroke-width="10"/>
+    <path d="M318 429q20-54 70-42l40 24-28 27-45 9z" fill="#c8c4b5" stroke-width="8"/>
+    <path d="M371 405q-9-37 24-47 33-5 48 14l-13 29-32 5z" fill="#b7b8ae" stroke-width="8"/>
+    <path d="M388 367l8-20 34 3 15 24" fill="#d7cdb6" stroke-width="7"/>
+    <path d="M383 422q-33 45-4 104l46 3q37-58 4-94z" fill="url(#cape)" stroke-width="8"/>
+    <path d="M408 424l-8 54m16-55 7 50" fill="none" stroke="#e0b85f" stroke-width="5"/>
+    <path d="M432 433l66-64" fill="none" stroke="#d7d0bd" stroke-width="8"/>
+    <path d="M492 372l48-50" fill="none" stroke="#e5bf67" stroke-width="5"/>
+    <path d="M538 316l-9 24 19-18z" fill="#f2d187" stroke-width="3"/>
+  </g>
+  <g fill="#f6d795" opacity=".7"><circle cx="130" cy="165" r="3"/><circle cx="175" cy="214" r="2"/><circle cx="760" cy="280" r="3"/><circle cx="535" cy="135" r="2"/></g>
+</svg>

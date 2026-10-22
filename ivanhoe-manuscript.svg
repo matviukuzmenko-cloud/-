@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" role="img" aria-labelledby="title desc">
+  <title id="title">Пергамент і печатка</title>
+  <desc id="desc">Ілюстрація старого пергаменту, пера та червоної воскової печатки.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f4dfb2"/><stop offset="1" stop-color="#d5b580"/></linearGradient>
+    <linearGradient id="wax" x2="1" y2="1"><stop stop-color="#bd5a4a"/><stop offset="1" stop-color="#762e39"/></linearGradient>
+  </defs>
+  <rect width="700" height="250" rx="28" fill="#efe1c8"/>
+  <path d="M70 34q72-18 147 0h267q61-13 142 1l-10 176q-73 13-145 0H207q-67 14-137-1z" fill="url(#paper)" stroke="#b7925c" stroke-width="3"/>
+  <path d="M111 76h339M111 101h311M111 126h344M111 151h261" stroke="#9d7955" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  <path d="M493 163q88-97 111-117-7 53-88 134-16 4-23-17z" fill="#4a4142"/>
+  <path d="M499 169q29-37 88-100" fill="none" stroke="#d9c4a2" stroke-width="3"/>
+  <circle cx="518" cy="171" r="31" fill="url(#wax)" stroke="#752e36" stroke-width="5"/>
+  <path d="M505 171q13-17 26 0-13 16-26 0zm13-11v23" fill="none" stroke="#f0c678" stroke-width="3" stroke-linecap="round"/>
+  <path d="M88 48q9-20 20 0m419 144q14 9 26-1" fill="none" stroke="#b7925c" stroke-width="3" opacity=".65"/>
+</svg>
